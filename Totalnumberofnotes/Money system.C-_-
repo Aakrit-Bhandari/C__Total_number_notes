@@ -1,0 +1,42 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+int main()
+{
+    int amt=545;
+    // scanf("%d", &amt);
+    int a1 = amt / 500;
+    amt = amt % 500;
+    printf("%d\n", amt);
+    int a2 = amt / 100;
+    amt = amt % 100;
+    printf("%d\n", amt);
+    int a3 = amt / 50;
+    amt = amt % 50;
+    printf("%d\n", amt);
+    int a4 = amt / 20;
+    amt = amt % 20;
+    printf("%d\n", amt);
+    int a5 = amt / 10;
+    amt = amt % 10;
+    printf("%d\n", amt);
+    int a6 = amt / 5;
+    amt = amt % 5;
+    printf("%d\n", amt);
+    int a7 = amt / 2;
+    amt = amt % 2;
+    printf("%d\n", amt);
+    int a8 = amt / 1;
+    printf("%d\n", amt);
+    amt = amt % 1;
+    printf("%d\n", amt);
+    printf("500-%d\n", a1);
+    printf("100-%d\n", a2);
+    printf("50-%d\n", a3);
+    printf("20-%d\n", a4);
+    printf("10-%d\n", a5);
+    printf("5-%d\n", a6);
+    printf("2-%d\n", a7);
+    printf("1-%d\n", a8);
+    return 0;
+}
